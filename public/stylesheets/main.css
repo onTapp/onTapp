@@ -11,6 +11,13 @@ body {
 	height:100%;
 }
 
+#wrapper {
+	margin: 0 auto;
+	float: center;
+	padding: 0;
+	width: 95%;
+}
+
 a {
   text-decoration: none;
 	color: black;
@@ -100,7 +107,7 @@ footer{
 	height:500px;
 	width:1250px;
 }
-  
+
 #wrapper {
 	//float: left;
 	padding: 0;
@@ -138,5 +145,4 @@ footer{
 	height:50px;
 	
 }
-
 
