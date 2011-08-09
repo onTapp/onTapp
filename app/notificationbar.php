@@ -1,4 +1,12 @@
 <div id="notebar">
-	<p>onTapp makes informed and easy ordering simple</p>
-	<p>Congratulations to the Hockey Team for beating Brown!</p>
+	<div id="notekeeper">
+	<p>
+		<span class="description">
+			onTapp makes informed and easy ordering simple		
+		</span>
+		<span class="shoutout">
+			Congratulations to the Hockey Team for beating Brown!
+		</span>
+	</p>
+	</div>
 </div>

@@ -1,7 +1,7 @@
 </div>
 <footer>
   <ul>
-    <li><?php echo '$mvp'; ?></li>
+    <li><span class="mvp"><?php echo '$mvp'; ?></span></li>
     <li><a href="#">contact us</a></li>
     <li><a href="#">about onTapp</a></li>
     <li><a href="#">restaurant signup</a></li>
