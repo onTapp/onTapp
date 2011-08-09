@@ -2,6 +2,8 @@
 	$pageTitle = "search";
 	session_start();
 	require_once("header.php");
+	
+	echo "<div class = 'main' id='search'>";
 	if ($_POST['searchname']){
 		$restName = sanitizeMySQL($_POST['searchname']);
 		echo "restName: $restName <br />";
@@ -24,14 +26,8 @@
 			}
 	}	
 echo "works";
-function sanitizeString($string){
-	$string = strip_tags(htmlentities(stripslashes($string)));
-	return $string;
-}
-function sanitizeMySQL($string){
-	$string = sanitizeString(mysql_real_escape_string($string));
-	return $string;
-}
+
+echo "</div>";
 
 require_once("footer.php");
 ?>
