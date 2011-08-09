@@ -16,5 +16,6 @@
   <h3><a href="#">Most Popular</a></h3>
   <h3><a href="#">Ending Soon</a></h3>
 </div>
+
 <?php require_once("footer.php"); ?>
 

@@ -31,7 +31,9 @@
   */
 ?>
 		</header>
-		
+<?php
+  //require_once("notificationbar.php")
+?>
 		
 		
 		
