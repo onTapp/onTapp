@@ -5,9 +5,9 @@
 		<div id="order">
 			<h2>Order Food</h2>
 			<h3>Search</h3>
-			<form method="post">
-				<input type="text" />
-				<input type="submit" value="Find Matches" />
+			<form method="post" action="search.php">
+				<input name='searchname' type='text' />
+				<input type="submit" name='submit' value="Find Matches" />
 			</form>
 		</div>
 		<div id="deals"
