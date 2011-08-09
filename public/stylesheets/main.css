@@ -22,9 +22,6 @@ a:hover {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-.sidebar {
-=======
 ul {
   margin: 0;
   padding: 0;
@@ -55,12 +52,12 @@ header, footer, .sidebar, .main {
 	opacity:0.85;
 }
 .sidebar{
->>>>>>> 14fa576af2bc936e7e2833687ed89241045d2f94
   float: right;
   width: 25%;
 	background-color: #00B0D8;
 	min-width:300px;
 	height:250px;
+	opacity: .9;
 }
 
 header, footer {
@@ -78,11 +75,7 @@ footer{
 	height:300px;
 	width:1300px;
 }
-  
-  
-  
-<<<<<<< HEAD
-=======
+
 #wrapper {
 	margin: 0 auto;
 	//float: left;
@@ -91,4 +84,9 @@ footer{
 	//height: 2000px;
 	//background-color: #ffffff;
 }
->>>>>>> 14fa576af2bc936e7e2833687ed89241045d2f94
+
+#notebar {
+	background-color:black;
+	width: 100%;
+
+}
