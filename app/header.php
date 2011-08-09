@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php// echo $title; 
+	<title><?php echo $title; 
 	?></title>
 	<!--meta data tags-->
 	<link rel="stylesheet" href="../public/stylesheets/main.css" type="text/css" />

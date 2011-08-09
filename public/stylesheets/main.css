@@ -1,5 +1,5 @@
 body {
-  background: #000000 url(../../images/darkgrey.jpg) repeat left top;
+  background: #BBB url(../../images/yalemap.jpg) repeat left top;
   font-family: "mako", verdana, sans-serif;
   font-size: 14px;
 	line-height: 1.7em;
@@ -15,26 +15,80 @@ body {
 
 a {
   text-decoration: none;
-	color: #F7CD78;
+	color: black;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 .sidebar {
-  float: right;
-  width: 25%;
-  margin-left: 0px;
-  margin-right: 10px;
+=======
+ul {
+  margin: 0;
+  padding: 0;
+
 }
 
-.main {
-  float: left;
-  width: 65%;
-  margin-right: 0px;
-  margin-left: 10px;
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+  color:black;
+
+}
+
+header, footer, .sidebar, .main {
+  //border: #FFFFFF 2px dashed;
+  margin: 10px;
+  padding: 10px; 
+}
+
+.main{
+	float: left;
+  width: 60%;
+  height:250px;
+	background-color: #ED1C24;
+	min-width:400px;
+	margin-left:80px;
+	opacity:0.85;
+}
+.sidebar{
+>>>>>>> 14fa576af2bc936e7e2833687ed89241045d2f94
+  float: right;
+  width: 25%;
+	background-color: #00B0D8;
+	min-width:300px;
+	height:250px;
+}
+
+header, footer {
+  //background-color: #f22222;
+  width: 100%;
+  color: #00ADEF
+  
+}
+
+footer{
+	clear:both;
+}
+
+#holder {
+	height:300px;
+	width:1300px;
 }
   
   
   
+<<<<<<< HEAD
+=======
+#wrapper {
+	margin: 0 auto;
+	//float: left;
+	padding: 0;
+	width: 95%;
+	//height: 2000px;
+	//background-color: #ffffff;
+}
+>>>>>>> 14fa576af2bc936e7e2833687ed89241045d2f94

@@ -2,7 +2,7 @@
   $pageTitle = "Home";
   require_once("header.php"); 
 ?>
-
+<div id="holder">
 <div class = "main" id="order">
   <h2>Order Food</h2>
   <h3>Search</h3>
@@ -16,6 +16,6 @@
   <h3><a href="#">Most Popular</a></h3>
   <h3><a href="#">Ending Soon</a></h3>
 </div>
-
+</div>
 <?php require_once("footer.php"); ?>
 
