@@ -11,6 +11,21 @@ a {
 	color: #F7CD78;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
 header, footer, .sidebar, .main {
   border: #FFFFFF 2px dashed;
   margin: 10px;
@@ -19,25 +34,28 @@ header, footer, .sidebar, .main {
 
 header, footer {
   background-color: #f22222;
+  width: 100%;
+  color: #00ADEF
 }
 
 
 .sidebar {
   float: right;
-  width: 30%;
+  width: 25%;
 }
 
 .main {
-  float: right;
-  width: 70%;
+  float: left;
+  width: 65%;
 }
   
   
   
 #wrapper {
 	margin: 0 auto;
+	float: left;
 	padding: 0;
-	width: 100%
+	width: 95%;
 	//height: 2000px;
 	//background-color: #ffffff;
 }
