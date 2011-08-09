@@ -32,7 +32,7 @@
 ?>
 		</header>
 <?php
-  //require_once("notificationbar.php")
+  require_once("notificationbar.php")
 ?>
 		
 		
