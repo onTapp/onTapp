@@ -4,7 +4,7 @@
 	require_once("header.php");
 	
 	echo "<div class = 'main' id='search'>";
-	if ($_POST['searchname']){
+	if (isset($_POST['searchname'])){
 		$restName = sanitizeMySQL($_POST['searchname']);
 		echo "restName: $restName <br />";
 		$query = "SELECT * FROM restaurants WHERE rest_name='$restName'";
