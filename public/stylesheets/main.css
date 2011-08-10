@@ -2,6 +2,10 @@
 	margin:0;
 }
 
+h1 {
+	margin-left:20px;
+}
+
 body {
   background: #BBB url(../../images/yalemap.jpg) repeat left top;
   font-family: "mako", verdana, sans-serif;
@@ -94,12 +98,15 @@ footer{
 	clear:both;
 	position:absolute;
 	bottom:0%;
+	//left:0%;
+	//right:0%;
 	background-color: #00B0D8;
-	z-index: 10;
+//	z-index: 10;
 	height: 80px;
-	margin-top: -3em;
+	margin-top: -30px;
 	//padding-bottom:100%;
 	border-top: 2px solid black;
+	width:102%;
 
 }
 
@@ -121,20 +128,21 @@ footer{
 
 #notebar {
 	background-color:#222;
-	width:100%;
+	width:102%;
 	margin-top:13px;
 	padding-top:10px;
 	padding-bottom:10px;
 }
+
 #notekeeper{
 	height: 28px;
-	width: 1250px;
+	min-width: 1250px;
 
 }
 
 .description{
 	display: inline-block;
-	margin-left:20px;
+	margin-left:40px;
 	height: 25px;
 }
 

@@ -7,7 +7,7 @@
 	
 	if(isset($_POST['searchname'])){
 		$restName = sanitizeMySQL($_POST['searchname']);
-		$query = "SELECT * FROM restaurants WHERE rest_name='$restName'";
+		$query = "SELECT * FROM restaurants WHERE rest_name LIKE '$restName%'";
 	//	echo $query . "<br />";
 		$result = mysql_query($query);
 		if(!$result){
@@ -26,7 +26,9 @@
 			}
 		}
 	}
-
-
+/*need to use rows to make javascript like 
+ document.getElementById("livesearch").style.height="50px * rows"
+ */
 
 ?>
+

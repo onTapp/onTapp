@@ -9,8 +9,8 @@
   <h3>Search</h3>
   <form method="post" action="search.php" autocomplete="off">
     <input name='searchname' type='text' onKeyUp='showResult(this.value)' onFocus='showResult(this.value)' onBlur="showResult('delete')" />
-    <div id="livesearch"></div>
     <input type="submit" name='submit' value="Find Matches" />
+    <div id="livesearch"></div>
   </form>
 </div>
 <div class = "sidebar" id="deals">
