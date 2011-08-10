@@ -7,7 +7,7 @@ h1 {
 }
 
 body {
-  background: #BBB url(../../images/yalemap.jpg) repeat left top;
+  background: #BBB url(../../images/darkgrey.jpg) repeat left top;
   font-family: "mako", verdana, sans-serif;
   font-size: 14px;
 	line-height: 1.7em;
@@ -105,7 +105,7 @@ header{
 footer{
 	clear:both;
 	position:absolute;
-	bottom:0%;
+	bottom:0px;
 	//left:0%;
 	//right:0%;
 	background-color: #00B0D8;
