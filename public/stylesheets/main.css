@@ -64,10 +64,18 @@ ul li {
 	opacity:0.85;
 	padding-right:20px;
 	padding-bottom:15px;
-	border: 2px solid black;
+	//border: 2px solid black;
 //	border-image: url(../../images/yalemap.jpg);
 //	-moz-border-image-bottom: url(../../images/redcallig.jpg);
 }
+
+.callig{
+	background: url(../../images/redcallig.jpg) repeat-x 0px 18px;
+	margin-top: 240px;
+	width:770px;
+	height:100px;
+}
+
 .sidebar{
   float: right;
   width: 25%;
